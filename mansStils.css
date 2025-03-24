@@ -1,1 +1,7 @@
-a
+
+        h2{text-align: center;}
+        .pcenter{display:block; margin-left:auto; margin-right:auto;}
+        .center{text-align: center;}
+        .margin{margin-right: 50px; margin-left: 50px; margin-top: 45px; margin-bottom: 50px;}
+        .psize{width: 700px}
+        img{display:block; margin-left:auto; margin-right:auto; width: 700px}
