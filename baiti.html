@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>baiti</title>
+</head>
+<body>
+    <p>Aprēķināt cik daudz informācijas var lejupielādēt</p>
+    <form display="inline">
+        <input display="inline" name="sekunde" id="sekunde" type="number" onclick="sekunde.value=''">
+        <p display="inline">sekundēs, ja inetrneta ātrums ir 25 Mbps.</p>
+        
+      
+    </form>
+    <form display="inline">
+        <p></p>
+        <input name="atbilde" id="atbilde" value=sekunde.value*25;>
+        
+        <input type="radio" id="KB" name="KB" value="1000">
+        <label for="KB">KB</label>
+        
+        <input type="radio" id="KiB" name="KiB" value="1024">
+        <label for="KiB">KiB</label>
+        
+        
+        
+        
+        
+        <script>
+        function x {
+            
+           atbilde.value = sekunde.value*25;
+            
+            
+            
+            
+        }
+        
+        </script>
+        
+        
+        
+        
+    </form>
+</body>
+</html>
